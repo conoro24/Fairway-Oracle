@@ -3,7 +3,14 @@
     "allow": [
       "Bash(python3 -c:*)",
       "Bash(python3:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "WebFetch(domain:slashgolf.dev)",
+      "Bash(mvn -q compile:*)",
+      "Bash(java:*)",
+      "Bash(/usr/libexec/java_home:*)",
+      "Bash(mvn:*)",
+      "Bash(ls:*)",
+      "Bash(curl:*)"
     ]
   }
 }
